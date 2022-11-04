@@ -1,83 +1,35 @@
 html, body {
     height: 100%;
-}
-
-body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-}
-
-p {
-    font-size: 16px;
-}
-
-a {
-    color: #2e72a1;
-}
-
-#logo, .project-img {
-    max-height: 300px;
-}
-
-#fork img{
-    height: 25px;
-    margin-bottom: 25px;
-    filter: invert(1);
-}
-
-#sep {
-    height: 75px;
-}
-
-.margin {
-    margin-bottom: 45px;
-}
-
-.bg-1 {
-    background-color: #ffffff; /* White */
-    color: #555555;
-}
-
-.bg-2 {
-    background-color: #2e72a1; /* Blue */
-    color: #ffffff;
-}
-
-.card {
+    width: 100%;
+  }
+  h1 {
+    font-family: Lobster;
+    text-align: center;
+    font-size: 75px;
+    color: #2F4F4F;
+  }
+  p {
+    font-family: Poor Story;
+    color: #00264D;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 35px 10px 35px;
+  }
+  html {
+    background-color: #DEB887;
+  }
+  img {
+    width: 400px;
+    border: solid;
+    border-width: 5px;
+    border-color: black; 
+  }
+  #title-bill {
+    color: white;
+  }
+  #title-clones {
     color: black;
-    text-align: left;
-}
-
-.card-title {
-    font-weight: 700;
-}
-
-.bg-3 {
-    background-color: #000000; /* Black */
-    color: #ffffff;
-}
-
-.bg-4 {
-    background-color: #343a40; /* Dark Gray */
-    color: #fff;
-}
-
-.container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
-
-.navbar-nav li a:hover {
-    color: #2e72a1 !important;
-}
+  }
+  * {
+    text-align: center;
+  }
